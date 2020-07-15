@@ -22,16 +22,16 @@ class Pie extends Component {
             color: ['#02a499', '#f8b425', '#ec4561', '#38a4f8', '#3c4ccf'],
             series: [
                 {
-                    name: 'Total sales',
+                    name: 'Average Attendance',
                     type: 'pie',
                     radius: '55%',
-                    center: ['50%', '60%'],
+                    center: ['50%', '50%'],
                     data: [
-                        { value: 335, name: 'Laptop' },
-                        { value: 310, name: 'Tablet' },
-                        { value: 234, name: 'Mobile' },
-                        { value: 135, name: 'Others' },
-                        { value: 1548, name: 'Desktop' }
+                        { value: 1368, name: 'Lethbridge' },
+                        { value: 310, name: 'Okotoks' },
+                        { value: 290, name: 'Taber' },
+                        { value: 98, name: 'Clairsholm' },
+                        { value: 45, name: 'Lloydminster' }
                     ],
                     itemStyle: {
                         emphasis: {

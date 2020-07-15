@@ -60,11 +60,21 @@ class Navbar extends Component {
                 <div id="navigation">
                   <ul className="navbar-nav">
                     <li className="nav-item">
+                      <Link className="nav-link" to="/past-events">
+                        <i className="ti-home mr-2"></i>Past Events
+                      </Link>
+                    </li>
+                    <li className="nav-item">
                       <Link className="nav-link" to="/dashboard">
                         <i className="ti-home mr-2"></i>Dashboard
                       </Link>
                     </li>
-
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/upcoming-events">
+                        <i className="ti-home mr-2"></i>Upcoming Events
+                      </Link>
+                    </li>
+{/* 
                     <li className="nav-item dropdown mega-dropdown">
                       <Link
                         className="nav-link dropdown-toggle arrow-none"
@@ -624,6 +634,9 @@ class Navbar extends Component {
                         </div>
                       </div>
                     </li>
+                   */}
+                  
+                  
                   </ul>
                 </div>
               </Collapse>

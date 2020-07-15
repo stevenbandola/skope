@@ -105,7 +105,7 @@ class TopBar extends Component {
             </div>
 
             <div className="d-flex">
-              <form className="app-search d-none d-lg-block">
+              {/* <form className="app-search d-none d-lg-block">
                 <div className="position-relative">
                   <input
                     type="text"
@@ -114,9 +114,9 @@ class TopBar extends Component {
                   />
                   <span className="fa fa-search"></span>
                 </div>
-              </form>
+              </form> */}
 
-              <LanguageDropdown />
+              {/* <LanguageDropdown />
               <div className="dropdown d-none d-lg-inline-block">
                 <button
                   type="button"
@@ -125,13 +125,13 @@ class TopBar extends Component {
                 >
                   <i className="mdi mdi-fullscreen"></i>
                 </button>
-              </div>
+              </div> */}
 
               <NotificationDropdown />
 
               <ProfileMenu />
 
-              <div className="dropdown d-inline-block">
+              {/* <div className="dropdown d-inline-block">
                 <button
                   type="button"
                   onClick={this.toggleRightbar}
@@ -139,9 +139,9 @@ class TopBar extends Component {
                 >
                   <i className="mdi mdi-settings-outline"></i>
                 </button>
-              </div>
+              </div> */}
 
-              <div className="dropdown d-inline-block">
+              {/* <div className="dropdown d-inline-block">
                 <button
                   type="button"
                   onClick={this.toggleRightbar}
@@ -149,7 +149,7 @@ class TopBar extends Component {
                 >
                   <i className="bx bx-cog bx-spin"></i>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </header>

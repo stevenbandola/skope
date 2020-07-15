@@ -4112,6 +4112,12 @@ input[switch="dark"]:checked + label {
   border-bottom: 16px solid #626ed4;
 }
 
+.panel {
+  padding: 5px;
+  background: #fff;
+  border-radius: .25rem;
+}
+
 .account-pages .logo-admin {
   position: absolute;
   left: 0;

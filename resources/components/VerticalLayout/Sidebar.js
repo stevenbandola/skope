@@ -28,6 +28,20 @@ const SidebarContent = props => {
         </li>
 
         <li>
+          <Link to="/upcoming-events" className=" waves-effect">
+            <i className="ti-calendar"></i>
+            <span>Upcoming Events</span>
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/past-events" className=" waves-effect">
+            <i className="ti-calendar"></i>
+            <span>Past Events</span>
+          </Link>
+        </li>
+
+        <li>
           <Link to="/#" className="has-arrow waves-effect">
             <i className="ti-email"></i>
             <span>Email</span>

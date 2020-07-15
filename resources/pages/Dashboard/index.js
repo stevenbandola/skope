@@ -41,10 +41,10 @@ class Dashboard extends Component {
           <Row className="align-items-center">
             <Col sm={6}>
               <div className="page-title-box">
-                <h4 className="font-size-18">Dashboard</h4>
+                <h4 className="font-size-18">Growth Planning</h4>
                 <ol className="breadcrumb mb-0">
                   <li className="breadcrumb-item active">
-                    Welcome to Veltrix Dashboard
+                    MyVictory Okotoks Campus Pastor
                   </li>
                 </ol>
               </div>
@@ -66,7 +66,7 @@ class Dashboard extends Component {
                       <img src={servicesIcon1} alt="" />
                     </div>
                     <h5 className="font-size-16 text-uppercase mt-0 text-white-50">
-                      Orders
+                      Baptisms
                     </h5>
                     <h4 className="font-weight-medium font-size-24">
                       1,685{" "}
@@ -95,7 +95,7 @@ class Dashboard extends Component {
                       <img src={servicesIcon2} alt="" />
                     </div>
                     <h5 className="font-size-16 text-uppercase mt-0 text-white-50">
-                      Revenue
+                      Attendance
                     </h5>
                     <h4 className="font-weight-medium font-size-24">
                       52,368{" "}
@@ -125,7 +125,7 @@ class Dashboard extends Component {
                       <img src={servicesIcon3} alt="" />
                     </div>
                     <h5 className="font-size-16 text-uppercase mt-0 text-white-50">
-                      Average Price
+                      Baptisms
                     </h5>
                     <h4 className="font-weight-medium font-size-24">
                       15.8{" "}
@@ -155,10 +155,10 @@ class Dashboard extends Component {
                       <img src={servicesIcon4} alt="" />
                     </div>
                     <h5 className="font-size-16 text-uppercase mt-0 text-white-50">
-                      Product Sold
+                      Reports Filled
                     </h5>
                     <h4 className="font-weight-medium font-size-24">
-                      2436{" "}
+                      23{" "}
                       <i className="mdi mdi-arrow-up text-success ml-2"></i>
                     </h4>
                     <div className="mini-stat-label bg-warning">
@@ -182,7 +182,7 @@ class Dashboard extends Component {
             <Col xl={9}>
               <Card>
                 <CardBody>
-                  <h4 className="card-title mb-4">Monthly Earning</h4>
+                  <h4 className="card-title mb-4">Campus Growth</h4>
                   <Row>
                     <Col lg={7}>
                       <div>

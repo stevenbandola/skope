@@ -31,5 +31,3 @@ class SettingMenu extends Component {
 }
 
 export default SettingMenu;
-
-

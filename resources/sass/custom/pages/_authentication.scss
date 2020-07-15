@@ -5,6 +5,12 @@
 
 // login-1
 
+.panel {
+  padding: 5px;
+  background: $card-bg;
+  border-radius: .25rem;
+}
+
 .account-pages {
     .logo-admin {
         position: absolute;

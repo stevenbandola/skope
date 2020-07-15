@@ -48,10 +48,14 @@ class Login extends Component {
                     <div className="bg-primary">
                       <div className="text-primary text-center p-4">
                         <h5 className="text-white font-size-20">
-                          Welcome Back !
+                          Skope Login
                         </h5>
                         <p className="text-white-50">
-                          Sign in to continue to Veltrix.
+                          Be shepherds of God’s flock that is among you
+                          <br />
+                          <span className="text-white">watching over them</span>
+                          <br />
+                          (1 Pet 5:2)
                         </p>
                         <Link to="/" className="logo logo-admin">
                           <img src={logoSm} height="24" alt="logo" />
@@ -133,8 +137,8 @@ class Login extends Component {
                     </Link>{" "}
                   </p>
                   <p className="mb-0">
-                    © {new Date().getFullYear()} Veltrix. Crafted with{" "}
-                    <i className="mdi mdi-heart text-danger"></i> by Themesbrand
+                    © {new Date().getFullYear()} Skope. Crafted with{" "}
+                    <i className="mdi mdi-heart text-danger"></i> by Podchurch
                   </p>
                 </div>
               </Col>

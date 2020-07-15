@@ -97,6 +97,9 @@ import Pages500 from "../pages/ExtraPages/Pages500";
 import PagesMaintenance from "../pages/ExtraPages/PagesMaintenance";
 import PagesComingsoon from "../pages/ExtraPages/PagesComingsoon";
 
+import UpcomingEventsDashboard from "../pages/Events/upcomingEventsDashboard";
+import PastEventsDashboard from "../pages/Events/pastEventsDashboard";
+
 const authProtectedRoutes = [
   // Calendar
   { path: "/calendar", component: Calendar },
@@ -177,7 +180,10 @@ const authProtectedRoutes = [
   { path: "/pages-gallery", component: PagesGallery },
   { path: "/pages-faq", component: PagesFaq },
 
-  { path: "/dashboard", component: Dashboard },
+  { path: "/upcoming-events", component: UpcomingEventsDashboard },
+  { path: "/past-events", component: PastEventsDashboard },
+  { path: "/", component: Dashboard },
+  // { path: "/dashboard", component: Dashboard },
 
   { path: "/", exact: true, component: () => <Redirect to="/dashboard" /> }
 ];

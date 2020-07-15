@@ -11,11 +11,11 @@ import {
 } from "./actionTypes";
 
 const INIT_STATE = {
-  layoutType: "vertical",
+  layoutType: "horizontal",
   layoutWidth: "fluid",
   leftSideBarTheme: "dark",
   leftSideBarType: "default",
-  topbarTheme: "light",
+  topbarTheme: "dark",
   showRightSidebar: false,
   isMobile: false
 };
